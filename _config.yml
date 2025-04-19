@@ -1,4 +1,3 @@
-
 title: "JD Tamucci"
 email: "jd.tamucci@gmail.com"
 description: >-
@@ -9,9 +8,25 @@ twitter_username: "jdtamucci"
 bluesky_username: "jdtamucci"
 github_username: "jdtamucci"
 
-markdown: kramdown
-theme: minimal-mistakes-jekyll
+author:
+  name   : "JD Tamucci"
+  avatar : "/assets/images/profile.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:jd.tamucci@gmail.com"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/jd-tamucci/"
+    - label: "ORCID"
+      icon: "ai ai-orcid"
+      url: "https://orcid.org/0000-0002-6194-0579"
 
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+plugins:
+  - jekyll-remote-theme
+  
 defaults:
   - scope:
       path: ""
