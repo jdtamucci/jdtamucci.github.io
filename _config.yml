@@ -23,7 +23,7 @@ author:
       url: "https://orcid.org/0000-0002-6194-0579"
 
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-remote-theme
   
