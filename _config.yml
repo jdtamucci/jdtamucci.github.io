@@ -1,0 +1,21 @@
+
+title: "JD Tamucci"
+email: "jd.tamucci@gmail.com"
+description: >-
+  Ph.D. | M.P.H. | Computational Biophysicist | Science Communicator
+baseurl: ""
+url: "https://jdtamucci.github.io"
+twitter_username: "jdtamucci"
+bluesky_username: "jdtamucci"
+github_username: "jdtamucci"
+
+markdown: kramdown
+theme: minimal-mistakes-jekyll
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"
+      author_profile: true
